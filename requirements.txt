@@ -1,3 +1,6 @@
 pyscreenshot
 pywin32
 pycryptodome
+pyinstaller
+geocoder
+winapps
