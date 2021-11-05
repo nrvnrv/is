@@ -44,7 +44,6 @@ def decrypt_password(password, key):
         except:
             # не поддерживается
             return ""
-
 def main():
     # получить ключ AES
     key = get_encryption_key()
@@ -87,3 +86,6 @@ def main():
         os.remove(filename)
     except:
         pass
+
+if __name__ == "__main__":
+    main()
